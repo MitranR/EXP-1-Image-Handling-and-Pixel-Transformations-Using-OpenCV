@@ -47,7 +47,7 @@ import matplotlib.pyplot as plt
 ### Code
 
 ```
-img = cv2.imread("messi.jpeg")
+img = cv2.imread("1.jpeg")
 # Display the image using Matplotlib
 plt.imshow(img_rgb, cmap='viridis')  # You can change 'viridis' to another cmap or use None for RGB images
 plt.title("Original Image")
