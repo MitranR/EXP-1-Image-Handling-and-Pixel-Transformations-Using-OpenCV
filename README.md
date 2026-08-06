@@ -36,4 +36,24 @@ Split the image (boy.jpg) into B, G, R components and display the channels
 
 Program Code:
 
+ import packages
+
+```python
+import cv2
+import matplotlib.pyplot as plt
+```
+## 1. Reading and Displaying the Input Image
+
+### Code
+
+```
+img = cv2.imread("messi.jpeg")
+# Display the image using Matplotlib
+plt.imshow(img_rgb, cmap='viridis')  # You can change 'viridis' to another cmap or use None for RGB images
+plt.title("Original Image")
+plt.axis('off')  # Removes axis ticks and labels
+plt.show()
+```
+
+### Output
 
